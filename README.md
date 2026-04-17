@@ -2,7 +2,7 @@
 
 A living record of my Claude Code configuration: skills, MCP servers, subagents, and scripts.
 
-Last updated: 2026-04-17
+Last updated: 2026-04-18
 
 ## Structure
 
@@ -39,4 +39,18 @@ See `skills/` directory. Key skills:
 - `wsl-ops` — Canonical WSL operations from Windows Claude
 - `mcp-install-debug` — MCP installation debugging
 - `zotero-scholar` — Zotero-integrated literature discussion
-- EMRI physics skills: `emri-waveform-models`, `emri-computational-efficiency`, `emri-ml-deeplearning`, etc.
+- `emri-paper-digest` — Structured EMRI paper reading framework
+
+### EMRI Physics Knowledge Modules
+- `emri-waveform-models` — AK/NK/AAK/FEW/GSF model hierarchy
+- `emri-teukolsky-flux` — Teukolsky equation, BCs, radiation flux, adiabatic evolution
+- `emri-teukolsky-solvers` — Leaver/MST/direct integration applicability and misconceptions
+- `emri-gsf-selfforce` — MiSaTaQuWa equation, regularization, post-adiabatic framework
+- `emri-post-adiabatic` — 2GSF, 1PA waveforms, EOB, transition-to-plunge
+- `emri-kerr-geodesics` — Kerr geodesics, three frequencies, action-angle variables
+- `emri-resonances` — Transient/sustained/tidal resonances, detection impact
+- `emri-gr-tests` — No-hair theorem, scalar fields, Kerr symmetry breaking, ECO
+- `emri-astrophysics` — Formation rates, population statistics, environmental effects
+- `emri-lisa-data-analysis` — TDI, source confusion, global fit, parameter estimation
+- `emri-ml-deeplearning` — ML/DL for EMRI waveforms, PE, population inference
+- `emri-computational-efficiency` — Speed benchmarks, acceleration techniques, LISA requirements
