@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "arxiv": {
+      "command": "arxiv-mcp-server.exe",
+      "args": [],
+      "env": {
+        "ARXIV_PAPER_DIR": "<your-paper-dir>"
+      }
+    },
+    "wsl-exec": {
+      "command": "npx",
+      "args": ["-y", "mcp-wsl-exec"]
+    },
+    "zotero": {
+      "command": "zotero-mcp.exe",
+      "args": ["serve"],
+      "env": {
+        "ZOTERO_LOCAL": "true"
+      }
+    },
+    "arxiv-mcp": {
+      "command": "node",
+      "args": ["<path-to>/autoresearch-lab/packages/arxiv-mcp/dist/index.js"]
+    },
+    "drawio": {
+      "command": "npx",
+      "args": ["-y", "@drawio/mcp"]
+    }
+  }
+}
