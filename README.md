@@ -2,7 +2,7 @@
 
 A living record of my Claude Code configuration: skills, MCP servers, subagents, and scripts.
 
-Last updated: 2026-04-18
+Last updated: 2026-04-20
 
 ## Structure
 
@@ -40,6 +40,7 @@ See `skills/` directory. Key skills:
 - `mcp-install-debug` — MCP installation debugging
 - `zotero-scholar` — Zotero-integrated literature discussion
 - `emri-paper-digest` — Structured EMRI paper reading framework
+- `mma-python-call` — 从Python调用MMA kernel，含安全关闭和超时保护
 
 ### EMRI Physics Knowledge Modules
 - `emri-waveform-models` — AK/NK/AAK/FEW/GSF model hierarchy
