@@ -2,7 +2,7 @@
 
 A living record of my Claude Code configuration: skills, MCP servers, subagents, and scripts.
 
-Last updated: 2026-04-21
+Last updated: 2026-04-22
 
 ## Structure
 
@@ -41,6 +41,13 @@ See `skills/` directory. Key skills:
 - `zotero-scholar` — Zotero-integrated literature discussion
 - `emri-paper-digest` — Structured EMRI paper reading framework
 - `mma-python-call` — 从Python调用MMA kernel，含安全关闭和超时保护
+- `arxiv-emri-zotero` — Daily arXiv EMRI search + Zotero import
+- `gwosc` — GWOSC gravitational wave data access
+- `lira-reviewer` — LiRA double reviewer agent
+- `literature-reviewer` — Structured literature review
+- `math-physics-derivation` — Math/physics derivation protocol
+- `researcher` — Literature search subagent
+- `wsl-access` — WSL filesystem access via UNC paths
 
 ### EMRI Physics Knowledge Modules
 - `emri-waveform-models` — AK/NK/AAK/FEW/GSF model hierarchy
