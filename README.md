@@ -2,7 +2,7 @@
 
 A living record of my Claude Code configuration: skills, MCP servers, subagents, and scripts.
 
-Last updated: 2026-04-23
+Last updated: 2026-04-24
 
 ## Structure
 
@@ -35,7 +35,11 @@ mcp/             # MCP server config and notes
 See `skills/` directory. Key skills:
 - `scigym` — Automated research machine framework (Benchmark + CLI/Gym + Interface + AutoRun)
 - `nn-diagram` — TikZ/draw.io diagrams for DL papers
-- `prd-grqc` — PRD-style writing for GR/GW papers
+- `prd-grqc` — PRD-style writing for GR/GW papers (gr-qc domain-specific)
+- `prd-style` — PRD-style writing (general gravity/cosmology/field theory)
+- `paper-workbench` — LaTeX paper project management, code-to-paper workflow
+- `polish-expand-package` — Polish/expand/package research writing without changing scientific meaning
+- `projects` — Maps project names to WSL local paths
 - `crossref` — Academic literature search + sci-hub download
 - `wsl-ops` — Canonical WSL operations from Windows Claude
 - `mcp-install-debug` — MCP installation debugging
