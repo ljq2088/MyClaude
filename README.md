@@ -2,7 +2,7 @@
 
 A living record of my Claude Code configuration: skills, MCP servers, subagents, and scripts.
 
-Last updated: 2026-04-22
+Last updated: 2026-04-23
 
 ## Structure
 
@@ -33,6 +33,7 @@ mcp/             # MCP server config and notes
 ## Skills
 
 See `skills/` directory. Key skills:
+- `scigym` — Automated research machine framework (Benchmark + CLI/Gym + Interface + AutoRun)
 - `nn-diagram` — TikZ/draw.io diagrams for DL papers
 - `prd-grqc` — PRD-style writing for GR/GW papers
 - `crossref` — Academic literature search + sci-hub download
